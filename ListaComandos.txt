@@ -1,0 +1,9 @@
+# **Mi Lista de Comandos:**
+- `Josefina!` → Presentación del bot
+- `j!como puedes ayudarme?` → Muestra esta lista
+- `j!explicame [condición]` → Explica condición de D&D
+- `j!lanzame [dados]` → Lanza dados personalizados
+- `j!buenas noches` → Despedida nocturna
+- `j!inicia un combate llamado [nombre]` → Josefina organiza iniciativa del grupo
+- `j!mostrar iniciativa del combate [nombre]` → Muestra el orden de iniciativa actual
+- `j!genera estadísticas` → Genera 6 scores lanzando 4d6 sin el menor
