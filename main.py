@@ -4,10 +4,11 @@ import FuncionesBusqueda as FB
 import FuncionesCombate as FC
 import FuncionesDados as FD
 import FuncionesDEV as DEV
+import FuncionesAvanzadas as FA
 import os
+
 from dotenv import load_dotenv
 load_dotenv()
-
 global EstadoDelBot 
 EstadoDelBot = True
 TOKEN = os.getenv("DISCORD_TOKEN")
@@ -74,5 +75,9 @@ async def on_message(message):
         #interaction commands
         if MSJCTT == 'j!buenas noches':
             await message.channel.send(f'bay! duerme bien {message.author.mention} <3')
-
+        #advanced commands
+        if MSJCTT == ("j!roll"):
+            await message.channel.send("Porfa probá con algo como:\n 'j!roll 2d6+1d4+3 adv x4'")
+        elif MSJCTT.startswith("j!roll "):
+            await FA.comando_roll_profesional(message)
 client.run(TOKEN)

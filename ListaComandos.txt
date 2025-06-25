@@ -7,3 +7,4 @@
 - `j!inicia un combate llamado [nombre]` → Josefina organiza iniciativa del grupo
 - `j!mostrar iniciativa del combate [nombre]` → Muestra el orden de iniciativa actual
 - `j!genera estadísticas` → Genera 6 scores lanzando 4d6 sin el menor
+- `j!roll [dados] →
